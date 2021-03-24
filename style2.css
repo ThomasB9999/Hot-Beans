@@ -1,0 +1,125 @@
+html, body{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: static;
+    float: left;
+}
+.header{
+    width: 100%;
+    background-color:#333;
+    float: left;
+ } 
+.header  h1{
+	color: white;
+	font-family: 'Rancho', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.contentl{
+    width: 50%;
+	height: 100%;
+    background-color:#333;
+    float: left;
+ } 
+ .contentl h1{
+    font-family: 'Rancho', cursive;
+    font-size: 100px;
+    margin-left: 70px;
+    color: #0ab284
+ }
+ .contentl h2{
+    font-family: 'Rancho', cursive;
+    font-size: 50px;
+    margin-left: 100px;
+    color: white;
+ }
+ .contentm{
+    width: 50%;
+	height: 100%;
+    background-color:#333;
+    float: right;
+ } 
+ .contentm img{
+     width: 450px;
+     padding: 20px;
+     margin-left: 100px;
+ }
+ .contentm h2{
+    font-family: 'Rancho', cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+}
+li a:hover {
+    background-color: #0ab284;
+}
+.button {
+    background-color: #0ab284;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+.button:hover {
+    transition-duration: 0.4s;
+    background-color: #076825;
+    box-shadow: 0px 0px 15px black;
+}
+@media (max-width: 900px) {
+    .contentm{
+        float:left;
+        width: 100%;
+        height: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .contentm img{
+        width: 300px;
+        padding: 0;
+        margin: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .contentl{
+        width: 100%;
+        float:left;
+        height: 55%;
+    }
+}
+@media (max-width: 900px) {
+    .contentl h1{
+        font-size: 50px;
+    }
+}
+@media (max-width: 900px) {
+    .contentl h2{
+        font-size: 25px;
+    }
+}

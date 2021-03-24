@@ -1,0 +1,151 @@
+html, body{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: static;
+    float: left;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    background-color:#333;
+    background-image: url("banner.png");
+    float: left;
+ } 
+.header  h1{
+	color: rgb(0, 0, 0);
+	font-family: 'Rancho', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.contentl{
+    width: 15%;
+	height: 150%;
+    background-color:#ff000075;
+    float: left;
+ } 
+.contentm{
+    width: 70%;
+	height: 130%;
+    background-color:#ffffff75;
+    float: left;
+    padding-bottom: 150px;
+ } 
+.contentm img{
+     width: 250px;
+     padding: 10px;
+ } 
+#jobs{
+    width: 500px;
+     padding: 10px;
+}
+.contentm h1{
+    font-family: 'Rancho', cursive;
+    padding-left: 50px;
+}
+.contentm h2{
+    font-family: 'Rancho', cursive;
+}
+.contentm p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contentr{
+    width: 15%;
+	height: 150%;
+    background-color:#ff000075;
+    float: left;
+ } 
+.footer{
+    width: 100%;
+	height: 30%;
+    background-color:#333;
+    float: left;
+    text-align: center;
+ } 
+.footer img{
+    width: 100px;
+    padding-top: 25px;
+}
+.footer p{
+    color: rgb(255, 0, 0);
+}
+.banner{
+    width: 100%;
+    height: 200%;
+    background-color:#ff000075;
+    background-image: url("banner.png");
+    float: left;
+}
+.banner img{
+    width: 150px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+}
+li a:hover {
+    background-color: #0ab284;
+}
+.button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+.button:hover {
+    transition-duration: 0.4s;
+    background-color: #4CAF50;
+}
+form{
+    padding: 50px;
+}
+form label{
+    display: block;
+    margin-top: 10px;
+}
+form input{
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+}
+#submit{
+    width: 25%;
+    height: 50px;
+    background-color: #333;
+    color: rgb(255, 0, 0);
+}
+#submit:hover{
+    transition-duration: 0.4s;
+    background-color: #4CAF50;
+}
+form textarea {
+	width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
